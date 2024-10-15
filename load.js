@@ -24,8 +24,8 @@ export const options = {
   };
   
   const BASE_URL = 'https://test-api.k6.io';
-  const USERNAME = 'bitwisebro';
-  const PASSWORD = 'Test1234';
+  const USERNAME = 'bitwisebro'; //invalid user, replace with valid
+  const PASSWORD = 'Test1234'; //invalid password, replace with valid
   
   export default () => {
     //hit login endpoint first
